@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/HarrisonZussman/SVG#readme",
   "dependencies": {
-    "inquirer": "^9.1.5",
+    "inquirer": "^8.2.4",
     "jest": "^29.5.0"
   }
 }
