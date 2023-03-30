@@ -34,11 +34,11 @@ inquirer.prompt(
 }
 ]).then(
     function createNewFile(data){
-        fs.writeFile(`./README.svg`,data,(err)=>{
+        fs.writeFile(`./logo.svg`,data,(err)=>{
     if(err){
         console.log(err)
     }
-    console.log('your readme has been generated');
+    console.log('your logo has been generated');
     })
     }
 )
