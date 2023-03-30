@@ -34,12 +34,14 @@ inquirer.prompt(
 }
 ]).then(
     function createNewFile(data){
-        fs.writeFile(`./logo.svg`,data,(err)=>{
-    if(err){
-        console.log(err)
-    }
-    console.log('your logo has been generated');
-    })
+        generatesvg(data)
+    //     console.log(data);
+    //     fs.writeFile(`./logo.svg`,data,(err)=>{
+    // if(err){
+    //     console.log(err)
+    // }
+    // console.log('your logo has been generated');
+    // })
     }
 )
 class CreateSvg{
