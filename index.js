@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+const {writeFile}= require("fs/promises");
 const util = require('util');
 const path = require('path');
 const {Square, Circle, Triangle} = require("./lib/shape");
@@ -36,13 +36,12 @@ inquirer.prompt(
     function createNewFile(data){
         console.log(data);
     
-        generatesvg(data)
+       const svg = generatesvg(data)
+       console.log(svg);
+       return writeFile("logo.svg", svg.render())
+    // .then(() => console.log("gen work"))
+    // .catch((err) => console.log(err));
     //     console.log(data);
-    //     fs.writeFile(`./logo.svg`,data,(err)=>{
-    // if(err){
-    //     console.log(err)
-    // }
-    // console.log('your logo has been generated');
-    // })
+   
     }
 )
