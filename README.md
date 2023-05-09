@@ -21,5 +21,4 @@ inquirer
 ![shape & text](assets/shape_with_text.PNG)
 
 ## video
-![video](assets/02.05.2023_19.35.00_REC.mp4)
-![video](https://app.screencastify.com/manage/videos/25QtnJOYHUXXKzwmOm9a)
+![video](https://drive.google.com/file/d/1gUJqZgdCy87lynJTqha4QML3LmmDp5OM/view)
