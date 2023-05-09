@@ -21,4 +21,4 @@ inquirer
 ![shape & text](assets/shape_with_text.PNG)
 
 ## video
-![video](https://drive.google.com/file/d/1gUJqZgdCy87lynJTqha4QML3LmmDp5OM/view)
+link: https://drive.google.com/file/d/1gUJqZgdCy87lynJTqha4QML3LmmDp5OM/view
